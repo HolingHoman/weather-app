@@ -1,0 +1,37 @@
+@import './src/styles/vars';
+
+.state {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currentTime {
+  color: $blue;
+  font-size: 40px;
+}
+
+.currentDate {
+  font-size: 16px;
+  color: var(--FontDark);
+  margin-bottom: 15px;
+}
+
+.currentState {
+  font-size: 18px;
+  color: $blue;
+
+  display: flex;
+}
+
+.icon {
+
+  svg {
+    fill: $blue;
+    margin-right: 6px;
+  }
+}
+
+.skeleton {
+  width: 160px;
+}

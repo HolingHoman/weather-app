@@ -1,0 +1,26 @@
+.widget {
+  border-radius: 20px;
+  background-color: var(--BGWhite);
+  padding: 22px;
+
+  transition: background-color 0.2s ease-out;
+}
+
+.title {
+  color: var(--FontDark);
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.skeletonWrapper {
+  flex: 1 0 auto;
+}
+
+.skeletonCard {
+  height: 96px;
+}

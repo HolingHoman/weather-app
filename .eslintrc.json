@@ -22,11 +22,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "prettier"
-  ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "semi": "off",
     "max-len": [
@@ -46,10 +42,7 @@
         "semi": false,
         "tabWidth": 2,
         "printWidth": 100,
-        "indent": [
-          "error",
-          2
-        ],
+        "indent": ["error", 2],
         "parser": "typescript",
         "endOfLine": "auto"
       }

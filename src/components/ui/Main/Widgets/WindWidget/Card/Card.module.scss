@@ -1,0 +1,21 @@
+.card {
+  padding: 7px 13px;
+  background: rgba(31, 203, 122, 0.1);
+  border-radius: 8px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 14px;
+  color: #1FCB7A;
+  text-align: center;
+}
+
+.value {
+  text-align: center;
+  font-size: 14px;
+  color: #1FCB7A;
+}

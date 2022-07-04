@@ -1,0 +1,38 @@
+$blue: #5C92FF;
+
+:root[data-theme="light"] {
+  --FontDark: #363E64;
+  --FontGray: #B7BEDB;
+  --FontWhite: #FFFFFF;
+  --BGWhite: #FFFFFF;
+  --BGBlue: #F0F5FF;
+}
+
+:root[data-theme="dark"] {
+  --FontDark: #FFFFFF;
+  --FontGray: #ECF0F1;
+  --FontWhite: #FFFFFF;
+  --BGWhite: #2C3E50;
+  --BGBlue: #34495E;
+}
+
+
+// Light
+//$lightFontDark: #363E64;
+//$lightFontGray: #B7BEDB;
+//$lightFontWhite: #FFFFFF;
+//
+//$lightBGWhite: #FFFFFF;
+//$lightBGBlue: #F0F5FF;
+
+
+// Dark
+//$darkFontDark: #BDC3C7;
+//$darkFontGray: #ECF0F1;
+//$darkFontWhite: #FFFFFF;
+//
+//$darkBGWhite: #34495E;
+//$darkBGBlue: #2C3E50;
+
+
+$container: 1118px;

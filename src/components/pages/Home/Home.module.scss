@@ -1,0 +1,19 @@
+.home {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.left {
+  flex: 1 1 auto;
+  padding: 32px 0;
+  min-height: 100vh;
+}
+
+.right {
+  flex: 0 1 356px;
+  background-color: var(--BGWhite);
+  transition: background .2s ease-out;
+  padding: 32px 26px;
+  min-height: 100vh;
+}

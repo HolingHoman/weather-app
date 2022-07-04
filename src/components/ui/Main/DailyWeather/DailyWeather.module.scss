@@ -1,0 +1,15 @@
+.weather {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.skeletonWrapper {
+  flex: 1 0 auto;
+}
+
+.skeleton {
+  height: 129px;
+  border-radius: 20px;
+}

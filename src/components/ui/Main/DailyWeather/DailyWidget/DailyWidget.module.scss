@@ -1,0 +1,35 @@
+@import './src/styles/vars';
+
+.widget {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px;
+  border-radius: 20px;
+  background-color: var(--BGWhite);
+  transition: background-color .2s ease-out;
+
+  &.active {
+    background: linear-gradient(90.26deg, #9EBEFF 0.25%, #6D9EFF 99.8%);
+    box-shadow: 0 0 10px rgba(92, 146, 255, 0.6);
+
+    .temp, .months {
+      color: var(--FontWhite);
+    }
+  }
+}
+
+.img {
+  margin-bottom: 15px;
+}
+
+.months {
+  margin-bottom: 15px;
+}
+
+.temp, .months {
+  color: var(--FontDark);
+  font-size: 16px;
+}

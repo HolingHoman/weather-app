@@ -1,0 +1,45 @@
+.state {
+  width: 100%;
+  background-color: var(--BGWhite);
+  padding: 8px 22px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: background-color .2s ease-out;
+
+  margin-bottom: 40px;
+}
+
+.title {
+  color: var(--FontDark);
+  font-size: 16px;
+}
+
+.sunState {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  & + .sunState {
+    .stateTime {
+      color: #6B9CFE;
+    }
+  }
+}
+
+.stateTitle {
+  color: var(--FontGray);
+  font-size: 14px;
+}
+
+.stateTime {
+  color: #FFB25A;
+  font-size: 14px;
+}
+
+.skeleton {
+  width: 136px;
+  height: 18px;
+}
